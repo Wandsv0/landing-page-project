@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="modelo de landing page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Agência WND</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="#" class="logo">
+            <img class="gif-cafe" src="./src/images/cafe.gif" alt="logo WND">
+            <span class="titulo">agência WND</span>
+        </a>
+
+        <nav class="navegacao">
+            <ul class="menu">
+                <li class="item">
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li class="item">
+                    <a href="#quem-somos">Quem somos</a>
+                </li>
+                <li class="item">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main" id="projetos">
+        <section class="paineis">
+            <h1 class="titulo">Nossos Projetos</h1>
+
+            <div class="imagem-painel projeto1 mostrar"></div>
+            <div class="imagem-painel projeto2"></div>
+            <div class="imagem-painel projeto3"></div>
+
+            <a class="seta btn-voltar" href="#" id="btn-voltar">voltar</a>
+            <a class="seta btn-avancar" href="#" id="btn-avancar">avançar</a>
+
+        </section>
+
+        <section class="quem-somos" id="quem-somos">
+            <div class="conteudo">
+                <div class="info">
+                    <h2 class="titulo">Quem Somos</h2>
+
+                    <p class="texto">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quae modi itaque. A quasi
+                        quod aut! Saepe quo voluptate deserunt eum error? Sunt voluptas excepturi corporis possimus
+                        consectetur facilis architecto.
+                    </p>
+                </div>
+
+                <img class="imagem" src="./src/images/composition-12.svg" alt="personagem com smartphone na mão">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contato">
+        <nav class="navegacao">
+            <a href="#" class="logo">
+                <img class="gif-cafe" src="./src/images/cafe.gif" alt="logo WND">
+                <span class="titulo">Agência WND</span>
+            </a>
+
+            <div class="redes-sociais">
+                <a class="rede-social" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="rede-social" href="#">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+                <a class="rede-social" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </nav>
+        <p class="copyright">Todos os direitos reservados.</p>
+        <p>Coded by <a class="github" href="https://github.com/Wandsv0" target="_blank">Wanderson Viana</a>.</p>
+    </footer>
+
+    <script src="./src/js/painel.js"></script>
+</body>
+
+</html>
